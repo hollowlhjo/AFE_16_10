@@ -1,0 +1,130 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.body__background {
+    height: 950px;
+    width: 100%;
+}
+
+.content {
+    height: 697px;
+    width: 1721px;
+    position: absolute;
+    top: 58px;
+    left: 91px;
+}
+
+.content__menu {
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.content__login {
+    position: relative;
+    top: 30px;
+    left: 1436px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    width: 110px;
+    height: 40px;
+}
+
+.content__singUp {
+    position: relative;
+    top: 30px;
+    left: 1425px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    height: 40px;
+    width: 110px;
+}
+
+.content__title {
+    font-size: 100px;
+    font-family: 'Open Sans';
+    color: #fff;
+    position: relative;
+    top: 0px;
+    left: 655px;
+}
+
+.content__description {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: -65px;
+    left: 700px;
+}
+
+.search__input {
+    position: absolute;
+    width: 655px;
+    height: 70px;
+    left: 530px;
+    top: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    border: #fff 0px solid;
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(126, 125, 125, 0.8);
+    padding: 20px;
+}
+
+.content__list {
+    position: absolute;
+    left: 627px;
+    top: 445px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.contacts__img {
+    position: relative;
+    top: 445px;
+    left: 30px;
+    margin-right: 16.34px;
+}
+
+.content__help {
+    position: absolute;
+    width: 174px;
+    height: 21px;
+    left: 1560px;
+    top: 777px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.search__img {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1174px;
+    top: 383px;
+}
