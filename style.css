@@ -1,11 +1,30 @@
 .body {
+    display: flex;
     margin: 0;
     padding: 0;
 }
 
-.body__background {
-    height: 950px;
+/* body{
+    display: flex;
+    background-image: url(/assets/img/pexels-photo-337540__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
+  } */
+.body__background {
+    margin-left: -160px;
+    margin-right: -10px;
+    height: 100%;
+    width: 2215px;
+    position: relative;
+    top: -200px;
+    align-items: center;
+    display: flex;
 }
 
 .content {
@@ -18,13 +37,13 @@
 
 .content__menu {
     position: relative;
-    top: 30px;
+    top: -34px;
     left: 30px;
 }
 
 .content__login {
     position: relative;
-    top: 30px;
+    top: -34px;
     left: 1436px;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
@@ -38,7 +57,7 @@
 
 .content__singUp {
     position: relative;
-    top: 30px;
+    top: -34px;
     left: 1425px;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
@@ -102,8 +121,8 @@
 
 .contacts__img {
     position: relative;
-    top: 445px;
-    left: 30px;
+    top: 555px;
+    left: -45px;
     margin-right: 16.34px;
 }
 
@@ -111,8 +130,8 @@
     position: absolute;
     width: 174px;
     height: 21px;
-    left: 1560px;
-    top: 777px;
+    left: 1637px;
+    top: 895px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
